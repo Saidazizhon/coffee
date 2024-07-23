@@ -1,0 +1,335 @@
+.header{
+    background-color: #F6EBDA;
+    width: 100%;
+    height: 970px;
+    background-image: url(..//../assets/bg_img_hero.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    .header_bg{
+        padding: 50px;
+        width: 100%;
+        height: 970px;
+        background-image: url(..//../assets/bg_img_hero2.svg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    .nav{
+        display: flex;
+        gap: 200px;
+        .logo_text{
+            margin-left: 100px;
+            .collection{
+                gap: 32px;
+                display: flex;
+                .item{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color: #000;
+                    cursor: pointer;
+                }
+                .item:hover{
+                    color: #FF902B;
+                }
+            }
+        }
+        .item:active {
+            transform: scale(0.95);
+        }
+        .logo_input{
+            margin-top: -13px;
+            .input {
+                margin-right: 24px;
+                border: none;
+                padding: 1rem;
+                border-radius: 1rem;
+                background: #e8e8e8;
+                box-shadow: 20px 20px 60px #c5c5c5,
+                       -20px -20px 60px #ffffff;
+                transition: 0.3s;
+               }
+               
+               .input:focus {
+                outline-color: #e8e8e8;
+                background: #e8e8e8;
+                box-shadow: inset 20px 20px 60px #c5c5c5,
+                       inset -20px -20px 60px #ffffff;
+                transition: 0.3s;
+            }
+        }
+    }
+    .hero{
+        margin-top: 145px;
+        display: flex;
+        .hero_text{
+            width: 60%;
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 72px;
+            text-align: left;
+            .hero_text_span{
+                color:#FF902B;
+                font-family: Poppins;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 72px;
+                text-align: left;
+            }
+        }
+        .hero_text-{
+            width: 47%;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: left;
+            color: #7E7D7A;
+        }
+        .hero_button{
+            width: Hug (170px)px;
+            height: Hug (46px)px;
+            top: 470px;
+            left: 135px;
+            padding: 12px 32px 12px 32px;
+            gap: 15px;
+            border-radius: 33px;
+            background: #2F2105;
+            box-shadow: 0px 4px 32px 0px #DFC37C40;
+            color: #ffffff;
+            .fa-cart-shopping{
+                width: 25px;
+                height: 25px;
+                margin-left: 3px;
+                padding: 5px;
+                background: #FF902B;
+                border-radius: 50%;
+            }
+            .fa-cart-shopping:hover{
+                background: #2F2105;
+            }
+        }
+        .hero_button:hover{
+            background: #FF902B;
+            box-shadow: 0px 0px 20px -18px; 
+            .fa-cart-shopping{
+                background: #2F2105;
+            } 
+        }
+        .hero_button:active {
+            transform: scale(0.95);
+        }
+        .hero_button-{
+            width: Hug (170px)px;
+            height: Hug (46px)px;
+            top: 470px;
+            left: 135px;
+            padding: 12px 32px 12px 32px;
+            gap: 15px;
+            border: none;
+            background: #F6EBDA;
+            color: #FF902B;
+        }
+        .hero_button-:hover{
+            color: #2F2105;
+        }
+        .hero_button-:active {
+            transform: scale(0.95);
+        }
+        .hero_text3{
+            margin-top: 145px;
+            .hero_text3-{
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 48px;
+                letter-spacing: 0.04em;
+                text-align: left;
+            }
+            .chiziq{
+                width: 74px;
+                height: 4px;
+                top: 703px;
+                left: 279px;
+                margin-left: 122px;
+                margin-top: -10px;
+                border-radius: 12px;
+                background: #FF902B;
+            }
+        }
+    }
+    .header_cards{
+        .header_cards_bg{
+            width: 1268px;
+            height: 367px;
+            top: 850px;
+            left: 86px;
+            background: #F9D9AA;
+            border-radius: 70px;
+        }
+        .header_card_header{
+            display: flex;
+        }
+        .header_card{
+            margin-right: -30px;
+            border-radius: 20px;
+            padding: 6px;
+            margin-top: -460px;
+            width: 355px;
+            height: 385px;
+            top: 745px;
+            left: 149px;
+            border: Mixed solid;
+            box-shadow: 10px 10px 32px 0px #00000040;
+            margin-left: 63px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+            .header_card_main{
+                text-align: center;
+                border-radius: 20px;
+                width: 343px;
+                height: 373px;
+                top: 751px;
+                left: 155px;
+                background: #FFFFFF;
+                padding: 18px;
+                .header_card_main_img{
+                    width: 307px;
+                    height: 226px;
+                    top: 775px;
+                    left: 173px;
+                }
+                .card_main_text{
+                    display: flex;
+                    gap: 60px;
+                    .card_main_text-{
+                        margin-left: 15px;
+                        font-family: Poppins;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        letter-spacing: 0.04em;
+                        text-align: left;
+                    }
+                }
+                .card_main_btn{
+                    .card_main_btn-{
+                        width: Fixed (64px)px;
+                        height: Fixed (32px)px;
+                        top: 1068px;
+                        left: 185px;
+                        margin-top: 12px;
+                        padding: 0px 10px;
+                        border-radius: 8px;
+                        border: 2px solid #FF902B;
+                        gap: 10px;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 0.04em;
+                        text-align: center;
+                        color: #FF902B;
+                        background: #ffffff;
+                        justify-content: start;
+                        margin-right: 50px;
+                    }
+                    .card_main_btn-:hover{
+                        color: #F9D9AA;
+                        border: 2px solid #F9D9AA;
+                    }
+                    .card_main_btn-:active {
+                        transform: scale(0.95);
+                    }
+                    .card_main_btn--{
+                        width: Fixed (43px)px;
+                        height: Fixed (40px)px;
+                        top: 1062px;
+                        left: 419px;
+                        padding: 10px;
+                        gap: 10px;
+                        border-radius: 50%;
+                        background: #FF902B;
+                        border: none;
+                        color: #FFFFFF;
+                    }
+                    .card_main_btn--:hover{
+                        color: #ffffff;
+                        border: 2px solid #F9D9AA;
+                    }
+                    .card_main_btn--:active {
+                        transform: scale(0.95);
+                    }
+                    .rating:not(:checked) > input {
+                        position: absolute;
+                        appearance: none;
+                      }
+                      
+                      .rating:not(:checked) > label {
+                        float: right;
+                        cursor: pointer;
+                        font-size: 30px;
+                        color: #666;
+                      }
+                      
+                      .rating:not(:checked) > label:before {
+                        content: '★';
+                      }
+                      
+                      .rating > input:checked + label:hover,
+                      .rating > input:checked + label:hover ~ label,
+                      .rating > input:checked ~ label:hover,
+                      .rating > input:checked ~ label:hover ~ label,
+                      .rating > label:hover ~ input:checked ~ label {
+                        color: #e58e09;
+                      }
+                      
+                      .rating:not(:checked) > label:hover,
+                      .rating:not(:checked) > label:hover ~ label {
+                        color: #ff9e0b;
+                      }
+                      
+                      .rating > input:checked ~ label {
+                        color: #ffa723;
+                    }                      
+                }
+                .star{
+                    margin-bottom: -37px;
+                    margin-left: 100px;
+                    padding: 3px;
+                    position:absolute;
+                    z-index: 11;
+                    width: 70px;
+                    height: 34px;
+                    top: 782px;
+                    left: 568px;
+                    border-radius: 27px;
+                    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%);
+                    .akar_star{
+                        width: Hug (62px)px;
+                        height: Fixed (26px)px;
+                        top: 786px;
+                        left: 572px;
+                        padding: 4px 4px 4px 10px;
+                        gap: 4px;
+                        border-radius: 50px;
+                        display: flex;
+                        .star_text{
+                            width: 24px;
+                            height: 14px;
+                            font-family: Poppins;
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 21px;
+                            letter-spacing: 0.04em;
+                            text-align: center;
+                        }
+                        .star_img{
+                            margin-bottom: -5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

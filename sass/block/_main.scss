@@ -1,0 +1,100 @@
+.main{
+    .hero_text3{
+        margin-top: 145px;
+        .hero_text3-{
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: 0.04em;
+            text-align: left;
+        }
+        .chiziq{
+            z-index: 11;
+            position: absolute;
+            width: 144px;
+            height: 4px;
+            top: 703px;
+            left: 279px;
+            margin-left: 145px;
+            margin-top: 600px;
+            border-radius: 12px;
+            background: #FF902B;
+        }
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .card{
+        margin: auto;
+        width: 356px;
+        top: 1337px;
+        left: 149px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
+        padding: 24px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .card__img{
+        width: 307.86px;
+        top: 1367px;
+        left: 173.07px;
+        background: #F6EBDA;
+        border-radius: 20px;
+    }
+    .cards__p-{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        margin: 20px 40px;
+        color: #1E1D1D;
+    }
+    .cards__p--{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.92px;
+        text-align: left;
+        color: #000;
+    }
+    .desc{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        cursor:help;
+    }
+    .birbalo-btn{
+        padding: 5px;
+        margin: auto;
+        margin-top: 10px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 156px;
+        height: 36px;
+        background: #F9D9AA;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .birbalo-btn:hover {
+        background-color: #FF902B;
+        box-shadow: 0 0 20px #6fc5ff50;
+        transform: scale(1.1);
+      }
+      
+      .birbalo-btn:active {
+        background-color: #F9D9AA;
+        transition: all 0.25s;
+        -webkit-transition: all 0.25s;
+        box-shadow: none;
+        transform: scale(0.98);
+    }
+}
